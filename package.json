@@ -1,0 +1,40 @@
+{
+  "name": "cft",
+  "description": "CDC Frontend Template",
+  "version": "0.1.0",
+  "author": {
+    "name": "CDC F2E Team",
+    "url": "http://cdc.im/"
+  },
+  "homepage": "http://cdc.im/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cdc-im/CFT.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cdc-im/CFT/issues"
+  },
+  "main": "./cft.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "keywords": [
+    "cdc",
+    "f2e",
+    "template",
+    "init"
+  ],
+  "bin": {
+    "cft": "./cft.js"
+  },
+  "dependencies": {
+    "q": "1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "readme": "# CFT: The CDC Frontend Template\n\n",
+  "readmeFilename": "readme.md",
+  "_id": "cft@0.1.0",
+  "_from": "cft@~0.1.0"
+}
