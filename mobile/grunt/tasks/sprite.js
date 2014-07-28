@@ -7,15 +7,15 @@ module.exports = {
 		cssFormat: 'less',
 		padding: 0
 	},
-	retina: {
-	    src: '../sprites/retina/*.png',
-	    destImg: '../img/sprites-2x.png',
-	    imgPath: '../img/sprites-2x.png',
-	    destCSS: '../less/sprites-2x.less',
-	    cssFormat: 'less',
-	    cssVarMap: function(sprite) {
-	        sprite.name = sprite.name.replace('@', '-');
-	    },
-	    padding: 0
-	}
+	// retina: {
+	//     src: '../sprites/retina/*.png',
+	//     destImg: '../img/sprites-2x.png',
+	//     imgPath: '../img/sprites-2x.png',
+	//     destCSS: '../less/sprites-2x.less',
+	//     cssFormat: 'less',
+	//     cssVarMap: function(sprite) {
+	//         sprite.name = sprite.name.replace('@', '-');
+	//     },
+	//     padding: 0
+	// }
 };
