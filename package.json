@@ -1,7 +1,7 @@
 {
 	"name": "cft",
 	"description": "CDC Frontend Template",
-	"version": "0.1.6",
+	"version": "0.1.7",
 	"author": {
 		"name": "CDC F2E Team",
 		"url": "http://cdc.im/"
@@ -35,6 +35,6 @@
 	"scripts": {},
 	"readme": "# CFT: The CDC Frontend Template\n\n",
 	"readmeFilename": "readme.md",
-	"_id": "cft@0.1.6",
-	"_from": "cft@~0.1.6"
+	"_id": "cft@0.1.7",
+	"_from": "cft@~0.1.7"
 }
