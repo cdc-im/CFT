@@ -7,13 +7,17 @@ var fs = require('fs-extra'),
 var src = path.join(__dirname, './' + process.argv.splice(2)[0])
 var dest = process.cwd();
 fs.mkdirs(src + '/js', function(err) {
+	console.error(err);
 	if (err) return;
 	fs.mkdirs(src + '/img', function(err) {
+		console.error(err);
 		if (err) return;
 		fs.mkdirs(src + '/css', function(err) {
+			console.error(err);
 			if (err) return;
 			fs.copy(src, dest, function(err) {
-				if (err) return console.error(err);
+				console.error(err);
+				if (err) return;
 				var install = exec('cd ' + dest + '/grunt && npm install',
 					function(error, stdout, stderr) {
 						console.log('stdout: ' + stdout);
